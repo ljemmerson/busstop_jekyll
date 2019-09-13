@@ -1,0 +1,252 @@
+.team-container {
+  h1 {
+    font-weight: 600;
+    margin: 85px 0 25px 0;
+  }
+
+  h3 {
+    color: rgba(0,0,0,0.65);
+    font-weight: 400;
+    width: 90vw;
+    margin-bottom: 45px;
+    max-width: 1000px;
+
+    @include respond-to('medium') {
+      width: 55vw;
+    }
+  }
+
+  .team-segment {
+    background-color: #F8F8F8;
+    padding-top: 30px;
+
+    @include respond-to('medium') {
+      padding-top: 85px;
+    }
+
+    &.bottom {
+      padding: 0 0 45px 0;
+
+      @include respond-to('medium') {
+        padding: 45px 0 150px 0;
+      }
+    }
+
+    h2 {
+      color: rgba(0,0,0,0.85);
+    }
+
+    ul {
+      @include grid-container;
+      margin: 45px auto 0 auto;
+      max-width: 1200px;
+      padding-bottom: 20px;
+
+      @include respond-to('medium') {
+        margin-top: 45px;
+        padding-bottom: 45px;
+      }
+    }
+
+    li {
+      margin-bottom: 40px;
+      position: relative;
+
+      @include grid-media($small-grid) {
+        @include grid-column(3);
+      }
+
+      @include grid-media($medium-grid) {
+        @include grid-column(2);
+      }
+
+      @include grid-media($large-grid) {
+        @include grid-column(3);
+      }
+
+      @include respond-to('large') {
+        margin-bottom: inherit;
+      }
+
+      .mike {
+        background: url("../assets/photos/Mike_Bailey.png") no-repeat top center, url("../assets/photos/Mike_Bailey_Silly.png") no-repeat top center;
+      }
+
+      .gemma {
+        background: url("../assets/photos/Gemma_Smith.png") no-repeat top center, url("../assets/photos/Gemma_Smith_Silly.png") no-repeat top center;
+      }
+
+      .cat {
+        background: url("../assets/photos/Catriona_Maxwell.png") no-repeat top center, url("../assets/photos/Catriona_Maxwell_Silly.png") no-repeat top center;
+      }
+
+      .jonny {
+        background: url("../assets/photos/Jonny_Wimbles.png") no-repeat top center, url("../assets/photos/Jonny_Wimbles_Silly.png") no-repeat top center;
+      }
+
+      .rosie {
+        background: url("../assets/photos/Rosie_Brabs.png") no-repeat top center, url("../assets/photos/Rosie_Brabbs_Silly.png") no-repeat top center;
+      }
+
+      .jo {
+        background: url("../assets/photos/Jo_Crawford.png") no-repeat top center, url("../assets/photos/Jo_Crawford_Silly.png") no-repeat top center;
+      }
+
+      .emily {
+        background: url("../assets/photos/Emily_Finch.png") no-repeat top center, url("../assets/photos/Emily_Finch_silly.png") no-repeat top center;
+      }
+
+      .photo-container {
+        background-size: cover;
+        border: 5px solid white;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 10px 10px 0 rgba(0,0,0,0.1);
+        -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 10px 10px 0 rgba(0,0,0,0.1);
+        box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 10px 10px 0 rgba(0,0,0,0.1);
+        padding-top: 100%;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .bio-trigger, .photo-container {
+        cursor: pointer;
+      }
+
+      &:hover {
+        .mike {
+          background: url("../assets/photos/Mike_Bailey_Silly.png") no-repeat top center;
+        }
+
+        .gemma {
+          background: url("../assets/photos/Gemma_Smith_Silly.png") no-repeat top center;
+        }
+
+        .cat {
+          background: url("../assets/photos/Catriona_Maxwell_Silly.png") no-repeat top center;
+        }
+
+        .emily {
+          background: url("../assets/photos/Emily_Finch_silly.png") no-repeat top center;
+        }
+
+        .rosie {
+          background: url("../assets/photos/Rosie_Brabbs_Silly.png") no-repeat top center;
+        }
+
+        .jo {
+          background: url("../assets/photos/Jo_Crawford_Silly.png") no-repeat top center;
+        }
+
+        .jonny {
+          background: url("../assets/photos/Jonny_Wimbles_Silly.png") no-repeat top center;
+        }
+
+        .photo-container {
+          background-size: cover;
+          -webkit-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 20px 40px 0 rgba(0,0,0,0.1);
+          -moz-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 20px 40px 0 rgba(0,0,0,0.1);
+          box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 20px 40px 0 rgba(0,0,0,0.1);
+          transform: scale(1.02);
+        }
+      }
+
+      h3 {
+        color: rgba(0,0,0,0.85);
+        font-weight: 600;
+        width: 100%;
+        margin: 10px 0 0 0;
+
+        @include respond-to('medium') {
+          margin: 20px 0 5px 0;
+        }
+      }
+
+      .bio-container {
+        background-color: white;
+        -webkit-box-shadow: 0 10px 30px 0 rgba(0,0,0,0.1), 0 30px 60px 0 rgba(0,0,0,0.1);
+        -moz-box-shadow: 0 10px 30px 0 rgba(0,0,0,0.1), 0 30px 60px 0 rgba(0,0,0,0.1);
+        box-shadow: 0 10px 30px 0 rgba(0,0,0,0.1), 0 30px 60px 0 rgba(0,0,0,0.1);
+        border-radius: 4px;
+        display: none;
+        opacity: 0;
+        padding: 25px;
+        position: absolute;
+        width: 90vw;
+        top: -200px;
+        visibility: hidden;
+        z-index: 1;
+
+         @include respond-to('medium') {
+          width: 370px;
+        }
+
+        &:hover {
+          cursor: default;
+        }
+
+        &.right-column-fix {
+          @include respond-to('small') {
+            right: 0;
+          }
+
+          .triangle-shape {
+            @include respond-to('small') {
+              left: inherit;
+              right: 60px;
+            }
+          }
+        }
+
+        .triangle-shape {
+          bottom: -15px;
+          // box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+          width: 0;
+          height: 0;
+          border-left: 15px solid transparent;
+          border-right: 15px solid transparent;
+          border-top: 15px solid white; //controls triangle
+          left: 60px;
+          position: absolute;
+        }
+
+        a {
+          color: rgba(0,0,0,0.65);
+          font-weight: 900;
+          font-size: 12px;
+          letter-spacing: 1px;
+          padding: 20px 0;
+
+          &:hover {
+            color: rgba(0,0,0,0.85);
+            cursor: pointer;
+          }
+        }
+
+        p {
+          margin-top: 10px;
+          text-align: left;
+        }
+      }
+      .show-bio {
+        animation: bio-pop 0.3s linear 1;
+        display: block;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    // li.centre-employees {
+    //    @include grid-media($medium-grid) {
+    //     @include grid-push(1);
+    //   }
+    //   @include grid-media($large-grid) {
+    //     @include grid-push(3);
+    //   }
+    // }
+
+    li.centre-trustees, .centre-employees {
+      @include grid-media($large-grid) {
+        @include grid-push(1.5);
+      }
+    }
+  }
+}

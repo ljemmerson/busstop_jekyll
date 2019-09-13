@@ -1,0 +1,155 @@
+@keyframes menu-animate {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    right: -400px;
+  }
+
+  25% {
+  	opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+  }
+}
+
+@keyframes bus-tick {
+  0% {
+  }
+
+  20% {
+    transform:scale(1);
+    box-shadow: 0 7px 0 rgba(0,0,0,0.10);
+  }
+
+  30% {
+    transform:scale(1.1);
+    box-shadow: 0 9px 0 rgba(0,0,0,0.08);
+  }
+
+  40% {
+    transform:scale(1.1);
+    box-shadow: 0 9px 0 rgba(0,0,0,0.08);
+  }
+
+  50% {
+    transform:scale(1);
+    box-shadow: 0 7px 0 rgba(0,0,0,0.10);
+  }
+
+  100% {
+  }
+}
+
+@keyframes calendar-repeat-bg {
+  0% {
+  }
+
+  20% {
+    transform:scale(1);
+    box-shadow: 0 7px 0 rgba(0,0,0,0.10);
+  }
+
+  30% {
+    transform:scale(1.1);
+    box-shadow: 0 9px 0 rgba(0,0,0,0.08);
+
+  }
+
+  40% {
+    transform:scale(1.1);
+    box-shadow: 0 9px 0 rgba(0,0,0,0.08);
+  }
+
+  50% {
+    transform:scale(1);
+    box-shadow: 0 7px 0 rgba(0,0,0,0.10);
+  }
+
+  100% {
+  }
+}
+
+@keyframes calendar-repeat-spin {
+  0% {
+  }
+
+  20% {
+    transform:rotate(0deg);
+  }
+
+  30% {
+   transform:rotate(-180deg);
+
+  }
+
+  40% {
+    transform:rotate(-180deg);
+  }
+
+  50% {
+    transform:rotate(-360deg);
+  }
+
+  100% {
+    transform:rotate(-360deg);
+  }
+}
+
+@keyframes bounce-hands {
+  0% {
+  }
+
+  20% {
+    transform:translateY(0) scale(0.97);
+
+  }
+
+  30% {
+    transform:translateY(-5px) scale(1.02);
+  }
+
+  70% {
+    transform:translateY(-5px) scale(1.02);
+
+  }
+
+  80% {
+    transform:translateY(0) scale(0.97);
+
+  }
+
+  100% {
+  }
+}
+
+@keyframes fade-sparkle {
+  0% {
+  }
+
+  24% {
+    opacity: 0;
+  }
+
+  34% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+  }
+}
+
+@keyframes bio-pop {
+  50%  {transform: scale(1.2);}
+}

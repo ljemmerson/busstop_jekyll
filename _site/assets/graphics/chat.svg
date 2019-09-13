@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="98px" viewBox="0 0 133 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M82.4383623,46.6362599 L89.27607,57.2491944 C90.1734289,58.642002 89.7717884,60.4985488 88.3789808,61.3959077 C87.6674272,61.8543479 86.7953186,61.9908611 85.9777117,61.7717839 L71.4747629,57.8857305 C63.8952627,62.939352 53.9854531,66 43.1411121,66 C19.3149338,66 0,51.2253967 0,33 C0,14.7746033 19.3149338,0 43.1411121,0 C66.9672904,0 86.2822241,14.7746033 86.2822241,33 C86.2822241,37.862775 84.9072087,42.4798906 82.4383623,46.6362599 Z" id="path-1"></path>
+        <filter x="-6.7%" y="-9.1%" width="113.4%" height="130.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.112205616 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Concept" transform="translate(-650.000000, -2256.000000)">
+            <g id="How-can-it-be-used" transform="translate(0.000000, 695.000000)">
+                <g id="Chat-to-us" transform="translate(0.000000, 1563.000000)">
+                    <g id="Group-16-Copy" transform="translate(652.000000, 0.000000)">
+                        <path d="M121.679649,68.6044939 L128.517357,79.2174285 C129.414716,80.6102361 129.013075,82.4667828 127.620267,83.3641417 C126.908714,83.8225819 126.036605,83.9590951 125.218998,83.740018 L110.71605,79.8539646 C103.136549,84.907586 93.2267397,87.968234 82.3823986,87.968234 C58.5562204,87.968234 39.2412866,73.1936308 39.2412866,54.968234 C39.2412866,36.7428373 58.5562204,21.968234 82.3823986,21.968234 C106.208577,21.968234 125.523511,36.7428373 125.523511,54.968234 C125.523511,59.831009 124.148495,64.4481246 121.679649,68.6044939 Z" id="Combined-Shape" stroke="#7E53C7" stroke-width="4" fill="#FFFFFF" transform="translate(84.118552, 54.968234) scale(-1, 1) rotate(-345.000000) translate(-84.118552, -54.968234) "></path>
+                        <g id="Combined-Shape">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#7E53C7" stroke-width="4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-17" transform="translate(21.000000, 29.000000)" fill="#00E6F1">
+                            <ellipse id="Oval-3" cx="4.6097561" cy="4.5" rx="4.6097561" ry="4.5"></ellipse>
+                            <ellipse id="Oval-3" cx="21" cy="4.5" rx="4.6097561" ry="4.5"></ellipse>
+                            <ellipse id="Oval-3" cx="37.3902439" cy="4.5" rx="4.6097561" ry="4.5"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

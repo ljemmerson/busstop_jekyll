@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <header class="main-header dark">
+      {% include nav_dark.html %}
+    </header>
+    {{ content }}
+    {% include email_form.html %}
+    {% include footer.html %}
+  </body>
+</html>

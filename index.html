@@ -1,59 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>The Bus Stop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="/busstop_jekyll/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
-  </head>
-  <body>
-  	<header class="main-header">
-  		<div class="mobile-menu">Menu</div>
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-<nav class="topnav">
-	<div class="site-logo"> 
-		<a href="/busstop_jekyll/index.html"></a>
-	</div>
-	<ul>
-		<li class="menu-item">
-		    <a href="#contact-section">Contact us</a>
-		</li>
-		<li class="menu-item">
-		    <a href="/busstop_jekyll/team.html">The Team</a>
-		</li>
-		<li class="menu-item">
-		    <a href="/busstop_jekyll/careers.html">Work for us</a>
-		</li>
-		<li class="menu-item">
-		    <a href="/busstop_jekyll/volunteer.html">Volunteer</a>
-		</li>
-	</ul>
-</nav>
-
-      <div class="hero">
-	<hgroup>
-		<h1>A space for <span>Young People</span></h1>
-		<h3>Based in York & Scarborough, we help local churches provide excellent youth work</h3>
-		<div class="button-container">
-			<a href="/volunteer" class="primary">Volunteer for Us</a> 
-			<p>or</p>
-			<a target="_blank" href="https://www.give.net/20188233" class="secondary">Make a Donation</a>
-			<a href="https://www.youtube.com/embed/gonRE6WN8bg" class="video video-btn-container"><div class="play-btn-bg"><div class="play-arrow"></div></div>Watch Video</a>
-		</div>
-
-	</hgroup>
-	<div class="vid_overlay"></div>
-	<div class="mobile-bg-img"></div> 
-	<video preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-		 	<source src="assets/video/HeroVideo_mp4.mp4" type="video/mp4">
-		 	<source src="assets/video/HeroVideo_webmhd.mp4" type="video/webm">
-	</video>
-</div>
-  	</header>
-    <div class="key-points-segment">
+layout: basic_homepage
+title: "The Bus Stop"
+permalink: index.html
+<!-- navigation_weight: 1 -->
+---
+<div class="key-points-segment">
   <div class="key-points-container">
     <h2 class="dark">So how does it work?</h2>
     <div class ="key-point-one">
@@ -101,7 +55,7 @@
 <div class="stats">
   <hr>
     <h4 class="dark">So far we’ve worked with over</h2>
-    <h1 class="dark"><span id="animated-value">7500</span> young people</h2>
+    <h1 class="dark"><span id="animated-value">5000</span> young people</h2>
   <hr>
 </div>
 
@@ -123,48 +77,3 @@
     <p class="dark">Charlotte</p>
   </div>
 </div>
-
-    <div id="contact-section" class="contact-container">
-  <div class="chat-graphic"></div>
-  <h2>Fancy a chat?</h2>
-  <p>Thinking of booking the bus or want to volunteer? Send us an email from our online form and we’ll get back to you as soon as possible:</p>
-  <form method="POST" action="https://formspree.io/emily@busstop.org.uk">
-    <div class="input-field">
-      <input type="email" name="email" placeholder="&nbsp;" required></input>
-      <label>Your Email</label>
-    </div>  
-    <div class="message-field">
-      <textarea name="message" required></textarea>
-      <label>Your Message</label>
-    </div>
-    <a class="primary" type="submit">Send</a>
-  </form>
-</div>
-    <div class="insta-container">
-  <h2>What we've been up to...</h2>
-  <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f0d42ece4aeb5e6da39b449a364f542d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;max-width:1920px;"></iframe>
-</div>
-
-    <footer>
-	<h2>Like what we do?</h2>
-	<div class="button-container">
-			<a href="/volunteer" class="primary">Volunteer for Us</a> 
-			<p>or</p>
-			<a target="_blank" href="https://www.give.net/20188233" class="secondary">Make a Donation</a>
-	</div>
-	<hr>
-	<ul>
-		<a href="https://twitter.com/TheBusStopUK" target="_blank"><li class="twitter"></li></a>
-		<a href="https://www.facebook.com/thebusstopuk" target="_blank"><li class="facebook"></li></a>
-		<a href="https://www.instagram.com/busstopuk/" target="_blank"><li class="instagram"></li></a>
-	</ul>
-</footer>
-
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script type="text/javascript" src="/busstop_jekyll/js/modaal.min.js"></script>
-<script type="text/javascript" src="/busstop_jekyll/js/general.js"></script>
-
-  </body>
-</html>
